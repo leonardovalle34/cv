@@ -27,3 +27,18 @@ li{
 h1{
     margin: 15px;
 }
+.is-rounded:hover{
+    transform: scale(1.2);
+}
+
+.divinfo{
+    background-color: rgba(44, 44, 44, 0.568);
+    width: 30vw;
+    position: relative;
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.397);
+    padding: 10px;
+    left: 300px;
+}
+
