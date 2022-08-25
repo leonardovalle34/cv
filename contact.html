@@ -69,37 +69,42 @@
                         </header>
                         <div class="card-content">
                             <div class="content">
-                                <div class="field">
-                                    <label class="label">Name</label>
-                                    <div class="control">
-                                      <input class="input" type="text" placeholder="Text input">
-                                    </div>
-                                  </div>                                  
-                                  <div class="field">
-                                    <label class="label">Email</label>
-                                    <div class="control has-icons-left has-icons-right">
-                                      <input class="input" type="email" placeholder="Email input" value="">
-                                      <span class="icon is-small is-left">
-                                        <i class="fas fa-envelope"></i>
-                                      </span>
-                                      <span class="icon is-small is-right">
-                                        <i class="fas fa-exclamation-triangle"></i>
-                                      </span>
-                                    </div>
-                                  </div>                                  
-                                  <div class="field">
-                                    <label class="label">Message</label>
-                                    <div class="control">
-                                      <textarea class="textarea" placeholder="Textarea"></textarea>
-                                    </div>
-                                  </div>
-                                  
-                                  <div class="field">
-                                    <div class="field is-grouped">
+                                <form action="https://api.staticforms.xyz/submit" method="POST">
+                                    <input type="hidden" name="accessKey" value="a1ed6830-5330-47a2-b98b-7783ecdac8ba">
+                                    <input type="hidden" name="redirectTo" value="https://leonardovalle34.github.io/contact.html">
+                                    <div class="field">
+                                        <label class="label">Name</label>
                                         <div class="control">
-                                        <button class="button">Submit</button>
+                                        <input class="input" name="name" type="text" placeholder="Text input">
+                                        </div>
+                                    </div>                                  
+                                    <div class="field">
+                                        <label class="label">Email</label>
+                                        <div class="control has-icons-left has-icons-right">
+                                        <input class="input" type="email" placeholder="Email input" value="" name="email">
+                                        <span class="icon is-small is-left">
+                                            <i class="fas fa-envelope"></i>
+                                        </span>
+                                        <span class="icon is-small is-right">
+                                            <i class="fas fa-exclamation-triangle"></i>
+                                        </span>
                                         </div>
                                     </div>
+                                        <div class="field">
+                                            <label class="label">Message</label>
+                                            <div class="control">
+                                                <textarea class="textarea" placeholder="Textarea" name="message"></textarea>
+                                            </div>
+                                            </div>
+                                            
+                                            <div class="field">
+                                            <div class="field is-grouped">
+                                                <div class="control">
+                                                <button class="button">Submit</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </form>                                  
                                         <a href="https://api.whatsapp.com/send?phone=5547997537883&text=Texto%20aqui"
                                             target="_blank"
                                             style="position:fixed;bottom:20px;right:30px;">
