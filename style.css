@@ -1,4 +1,8 @@
 
+html{
+    background-color: transparent;
+    overflow-y: auto;
+}
 body{
     background: linear-gradient(to left, #01101d, #00125C);
     height: 100%;
