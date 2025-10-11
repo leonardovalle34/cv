@@ -8,7 +8,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="styleindex.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link res="stylesheet" href="styles/global.css" />
+    <script src="js/index.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -45,14 +47,14 @@
         <div class="language-selector">
           <h2 class="section-title">Selecione o Idioma / Select Language</h2>
           <div class="language-options">
-            <a href="indexprt.html" class="language-option">
+            <a href="pages/main-pt.html" class="language-option">
               <div class="flag">
-                <img src="https://flagcdn.com/w320/br.png" alt="Português" />
+                <img src="https://flagcdn.com/w320/pt.png" alt="Português" />
               </div>
               <span class="language-name">Português</span>
             </a>
 
-            <a href="indexeng.html" class="language-option">
+            <a href="pages/main-en.html" class="language-option">
               <div class="flag">
                 <img src="https://flagcdn.com/w320/gb.png" alt="English" />
               </div>
@@ -71,42 +73,5 @@
         </p>
       </footer>
     </div>
-
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const title = document.querySelector("h1");
-        const text = title.textContent;
-        title.textContent = "";
-
-        let i = 0;
-        const typeWriter = () => {
-          if (i < text.length) {
-            title.textContent += text.charAt(i);
-            i++;
-            setTimeout(typeWriter, 100);
-          }
-        };
-
-        setTimeout(typeWriter, 500);
-
-        const elements = document.querySelectorAll(
-          ".profile-card, .language-selector"
-        );
-        elements.forEach((el) => {
-          el.style.opacity = "0";
-          el.style.transform = "translateY(20px)";
-        });
-
-        let delay = 300;
-        elements.forEach((el) => {
-          setTimeout(() => {
-            el.style.transition = "opacity 0.5s ease, transform 0.5s ease";
-            el.style.opacity = "1";
-            el.style.transform = "translateY(0)";
-          }, delay);
-          delay += 200;
-        });
-      });
-    </script>
   </body>
 </html>
