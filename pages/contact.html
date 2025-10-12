@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonardo do Valle | Contact</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <script src="../js/main.js" defer></script>
+    <link rel="stylesheet" href="../styles/contact.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+  </head>
+  <body>
+    <header class="modern-header">
+      <nav class="nav-container">
+        <div class="nav-brand">
+          <div class="logo-container">
+            <span class="logo">LV</span>
+            <div class="brand-text">
+              <span class="brand-name">Leonardo do Valle</span>
+              <span class="brand-title">Front End Engineer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="nav-menu">
+          <a href="../index.html" class="nav-link">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+          </a>
+          <a href="contato.html" class="nav-link">
+            <i class="fas fa-envelope"></i>
+            <span>Contato</span>
+          </a>
+          <a href="projects.html" class="nav-link">
+            <i class="fas fa-briefcase"></i>
+            <span>Projects</span>
+          </a>
+        </div>
+
+        <button class="mobile-menu-btn" aria-label="Open menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <section class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>GET IN TOUCH</h2>
+          <div class="section-divider"></div>
+          <p
+            class="professional-summary"
+            style="text-align: center; margin-top: 1rem"
+          >
+            Let's talk about your next project or opportunity
+          </p>
+        </div>
+
+        <div class="contact-container">
+          <!-- Contact Information -->
+          <div class="contact-info">
+            <h3 style="color: #ffffff; margin-bottom: 2rem; text-align: center">
+              Contact Information
+            </h3>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-whatsapp"></i>
+              </div>
+              <div class="contact-details">
+                <h3>WhatsApp</h3>
+                <p>+55 (47) 99753-7883</p>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <a href="mailto:leonardovalle18@gmail.com"
+                  >leonardovalle18@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="contact-details">
+                <h3>LinkedIn</h3>
+                <a
+                  href="https://www.linkedin.com/in/leonardo-do-valle-b95a31135/"
+                  target="_blank"
+                >
+                  linkedin.com/in/leonardo-valle
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-globe"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Portfolio</h3>
+                <a href="https://leonardovalle34.github.io/cv" target="_blank">
+                  leonardovalle34.github.io/cv
+                </a>
+              </div>
+            </div>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Location</h3>
+                <p>Joinville - Santa Catarina, Brazil</p>
+              </div>
+            </div>
+
+            <div class="social-links-contact">
+              <a
+                href="https://github.com/leonardovalle34"
+                target="_blank"
+                aria-label="GitHub"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/leonardo-do-valle-b95a31135/"
+                target="_blank"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form">
+            <h3 style="color: #ffffff; margin-bottom: 2rem; text-align: center">
+              Send a Message
+            </h3>
+
+            <form action="https://api.staticforms.xyz/submit" method="POST">
+              <input
+                type="hidden"
+                name="accessKey"
+                value="a1ed6830-5330-47a2-b98b-7783ecdac8ba"
+              />
+              <input
+                type="hidden"
+                name="redirectTo"
+                value="https://leonardovalle34.github.io/cv/pages/contact.html"
+              />
+
+              <div class="form-group">
+                <label class="form-label" for="name">Name</label>
+                <input
+                  class="form-input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your full name"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="email">Email</label>
+                <input
+                  class="form-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="message">Message</label>
+                <textarea
+                  class="form-textarea"
+                  id="message"
+                  name="message"
+                  placeholder="Describe your project or question..."
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i>
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <a
+      href="https://api.whatsapp.com/send?phone=5547997537883&text=Hello! I'd like to discuss a project."
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer Centralizado -->
+    <footer class="modern-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-contact">
+            <a href="mailto:leonardovalle18@gmail.com" class="contact-btn">
+              <i class="fas fa-envelope"></i> Send Message
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Leonardo do Valle. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

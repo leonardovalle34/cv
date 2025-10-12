@@ -1,21 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Leonardo</title>
-    <link rel="stylesheet" href="styleindex.css">
-</head>
-<body>
-    <h1>Leonardo do Valle</h1>
-    <div>
-        <div id="divmain" style="display: flex;">
-            <a href="indexeng.html"><img src="./img/engred.png" alt="ingles" style="width: 150px; height:150px">English</a>
-            <a href="indexprt.html"><img src="img/brzred.png" alt="portugues" style="width: 150px; height:150px">Português</a>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonardo do Valle | Portfólio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link res="stylesheet" href="styles/global.css" />
+    <script src="js/index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="logo">LV</div>
+        <h1>Leonardo do Valle</h1>
+        <p class="tagline">Web Developer & Creative Designer</p>
+      </header>
 
+      <div class="main-content">
+        <div class="profile-card">
+          <div class="profile-img">
+            <img src="img/me.png" class="user-img"></img>
+          </div>
+          <h2 class="profile-name">Leonardo do Valle</h2>
+          <p class="profile-title">Web Developer</p>
+          <p class="profile-desc">
+            Transformando ideias em experiências digitais excepcionais com
+            código limpo e design inovador.
+          </p>
 
+          <div class="social-links">
+            <a href="https://github.com/leonardovalle34" target="_blank"
+              ><i class="fab fa-github"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/leonardo-do-valle-b95a31135/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
         </div>
+
+        <div class="language-selector">
+          <h2 class="section-title">Selecione o Idioma / Select Language</h2>
+          <div class="language-options">
+            <a href="pages/main-pt.html" class="language-option">
+              <div class="flag">
+                <img src="https://flagcdn.com/w320/pt.png" alt="Português" />
+              </div>
+              <span class="language-name">Português</span>
+            </a>
+
+            <a href="pages/main-en.html" class="language-option">
+              <div class="flag">
+                <img src="https://flagcdn.com/w320/gb.png" alt="English" />
+              </div>
+              <span class="language-name">English</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <a href="mailto:leonardovalle18@gmail.com" class="contact-btn">
+          <i class="fas fa-envelope"></i> Enviar Mensagem
+        </a>
+        <p style="margin-top: 1.5rem">
+          &copy; 2025 Leonardo do Valle. Todos os direitos reservados.
+        </p>
+      </footer>
     </div>
-</body>
+  </body>
 </html>
