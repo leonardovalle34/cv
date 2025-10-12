@@ -1,120 +1,320 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Leonardo do Valle</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
-    <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-    <header>
-
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div id="navbarBasicExample" class="navbar-menu is-active">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="indexprt.html">
-                        Inicio
-                    </a>
-
-                    <a class="navbar-item" href="contact.html">
-                        Contato
-                    </a>
-                    <a class="navbar-item" href="projetos.html">
-                        Meus projetos
-                    </a>
-                    
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leonardo do Valle | Projetos</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/projects.css" />
+    <script src="../js/main.js" defer></script>
+  </head>
+  <body>
+    <header class="modern-header">
+      <nav class="nav-container">
+        <div class="nav-brand">
+          <div class="logo-container">
+            <span class="logo">LV</span>
+            <div class="brand-text">
+              <span class="brand-name">Leonardo do Valle</span>
+              <span class="brand-title">Front End Engineer</span>
             </div>
-        </nav>
+          </div>
+        </div>
+
+        <div class="nav-menu">
+          <a href="../index.html" class="nav-link">
+            <i class="fas fa-home"></i>
+            <span>Início</span>
+          </a>
+          <a href="contato.html" class="nav-link">
+            <i class="fas fa-envelope"></i>
+            <span>Contato</span>
+          </a>
+          <a href="projects.html" class="nav-link">
+            <i class="fas fa-briefcase"></i>
+            <span>Projects</span>
+          </a>
+        </div>
+
+        <button class="mobile-menu-btn" aria-label="Abrir menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
     </header>
-    <section class="section">
-        <div class="container">
-            <div class="columns">
-                <div class="column">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="img/WhatsApp Image 2021-10-05 at 11.26.12.jpeg" alt="eu e o davi">
-                            </figure>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
 
-                                <div class="media-content">
-                                    <p class="title is-4">Leonardo do Valle</p>
+    <section class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>MEUS PROJETOS</h2>
+          <div class="section-divider"></div>
+          <p
+            class="professional-summary"
+            style="text-align: center; margin-top: 1rem"
+          >
+            Confira alguns dos projetos que desenvolvi ao longo da minha
+            carreira
+          </p>
+        </div>
 
-                                </div>
-                            </div>
-                            <span class="tag is-dark is-medium">Front-end developer</span>
-                            <br><br>
-                            <div class="content">
-                                <p>(47)997537883 WhatsApp </p>
-                                <p>Email:leonardovalle18@gmail.com</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="column is-8">
-                    <div class="card">
-                        <header class="card-header">
-                            <h1 class="title">
-                                Meus Projetos
-                            </h1>
-
-                        </header>
-                        <div class="card-content">
-                            <div class="content">
-                                <h2 class="title">Acompanhe alguns dos meus projetos</h2>
-                                <ul>
-                                    <li>
-                                        <p><a href="https://pokedexgame.vercel.app/" target="_blank">Aplicaçao web consumindo a api Pokedex, React , Styled Components , TypeScript </a></p>
-                                    </li>
-                                    <li>
-                                        <p><a href="https://leoapigithub.vercel.app" target="_blank">Pagina para buscar repositorios usando api do Github, projeto usando Typescript , Redux/toolkit , react + api github.</a></p>
-                                    </li>
-                                    <li>
-                                        <p><a href="https://countdownreactapp.netlify.app" target="_blank">Simples contador regressivo para qualquer data escolhida pelo usuario, aplicação feita com React usando , hooks, contextApi e muitas técnicas legais de React!</a></p>
-                                    </li>
-                                    <li>
-                                        <p><a href="https://fstenglish.vercel.app/reg" target="_blank">Teste seus conhecimentos em inglês com este quiz desenvolvido por mim usando NextJs</a></p>
-                                    </li>
-                                    <li>
-                                        <p><a href="https://moneycurrencyexchange.netlify.app/" target="_blank">Conversor de moedas feito com React/js</a></p>
-                                    </li>
-                                    <li>
-                                        <p><a href="https://moradacarmem.netlify.app/" target="_blank">Website para a pousada Morada Carmem na praia do rosa em SC. tecnologias usadas, Javascript, bootstrap, html, css</a></p>
-                                    </li>
-                                    <li>
-                                        <p><a href="https://leonardovalle34.github.io/carrinhodecompras/" target="_blank">Front end carrinho de compras responsivo - aula ministrada pelo professor Denny Azevedo - IFSP - JS PURO</a></p>
-                                    </li>
-                                    <li>
-                                        <p><a href="https://leonardovalle34.github.io/tempo/" target="_blank">Acompanhe o tempo na sua cidade e em qualquer lugar do mundo JS-PURO - com consumo de API OpenWeather</a></p>
-                                    </li>
-                                    <li>
-                                        <p><a href="https://leonardovalle34.github.io/calculadora/" target="_blank">Calculadora JS-PURO</a></p>
-                                    </li>
-                                    
-                                </ul>
-                             </div>
-                        </div>
-                            <a href="https://api.whatsapp.com/send?phone=5547997537883&text=Texto%20aqui"
-                                target="_blank"
-                                style="position:fixed;bottom:20px;right:30px;">
-                                <svg enable-background="new 0 0 512 512" width="50" height="50" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z" fill="#4CAF50"/><path d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z" fill="#FAFAFA"/></svg>
-                            </a>
-                    
-                            </div>
-
-                        </div>
-
-                    </div>
-                </div>
+        <div class="projects-grid">
+          <!-- Projeto 1 -->
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-dragon"></i>
             </div>
-        </section>
-    </body>
+            <h3 class="project-title">Pokedex Web App</h3>
+            <p class="project-description">
+              Aplicação web consumindo a API Pokedex para visualização de
+              pokémons com interface moderna e responsiva.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Styled Components</span>
+            </div>
+            <a
+              href="https://pokedexgame.vercel.app/"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Ver Projeto
+            </a>
+          </div>
+
+          <!-- Projeto 2 -->
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fab fa-github"></i>
+            </div>
+            <h3 class="project-title">GitHub Repository Search</h3>
+            <p class="project-description">
+              Página para buscar repositórios usando API do GitHub com
+              gerenciamento de estado avançado.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">Redux Toolkit</span>
+              <span class="tech-tag">GitHub API</span>
+            </div>
+            <a
+              href="https://leoapigithub.vercel.app"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Ver Projeto
+            </a>
+          </div>
+
+          <!-- Projeto 3 -->
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3 class="project-title">Countdown Timer</h3>
+            <p class="project-description">
+              Contador regressivo personalizável desenvolvido com React usando
+              hooks e Context API.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Context API</span>
+              <span class="tech-tag">Hooks</span>
+            </div>
+            <a
+              href="https://countdownreactapp.netlify.app"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Ver Projeto
+            </a>
+          </div>
+
+          <!-- Projeto 4 -->
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-language"></i>
+            </div>
+            <h3 class="project-title">English Quiz App</h3>
+            <p class="project-description">
+              Quiz interativo para testar conhecimentos em inglês com interface
+              moderna e responsiva.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <a
+              href="https://fstenglish.vercel.app/reg"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Ver Projeto
+            </a>
+          </div>
+
+          <!-- Projeto 5 -->
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-money-bill-wave"></i>
+            </div>
+            <h3 class="project-title">Currency Converter</h3>
+            <p class="project-description">
+              Conversor de moedas em tempo real com interface limpa e
+              funcionalidades avançadas.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">API Integration</span>
+            </div>
+            <a
+              href="https://moneycurrencyexchange.netlify.app/"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Ver Projeto
+            </a>
+          </div>
+
+          <!-- Projeto 6 -->
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-hotel"></i>
+            </div>
+            <h3 class="project-title">Pousada Morada Carmem</h3>
+            <p class="project-description">
+              Website completo para pousada na Praia do Rosa com design
+              responsivo e otimizado.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">Bootstrap</span>
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+            <a
+              href="https://moradacarmem.netlify.app/"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Ver Projeto
+            </a>
+          </div>
+
+          <!-- Projeto 7 -->
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <h3 class="project-title">Shopping Cart</h3>
+            <p class="project-description">
+              Carrinho de compras responsivo desenvolvido com JavaScript puro e
+              funcionalidades completas.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+            <a
+              href="https://leonardovalle34.github.io/carrinhodecompras/"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Ver Projeto
+            </a>
+          </div>
+
+          <!-- Projeto 8 -->
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-cloud-sun"></i>
+            </div>
+            <h3 class="project-title">Weather App</h3>
+            <p class="project-description">
+              Aplicativo de previsão do tempo com consumo de API OpenWeather e
+              interface intuitiva.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">API</span>
+              <span class="tech-tag">OpenWeather</span>
+            </div>
+            <a
+              href="https://leonardovalle34.github.io/tempo/"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Ver Projeto
+            </a>
+          </div>
+
+          <!-- Projeto 9 -->
+          <div class="project-card">
+            <div class="project-image">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <h3 class="project-title">Calculator</h3>
+            <p class="project-description">
+              Calculadora funcional desenvolvida com JavaScript puro e design
+              moderno.
+            </p>
+            <div class="project-tech">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+            <a
+              href="https://leonardovalle34.github.io/calculadora/"
+              target="_blank"
+              class="project-link"
+            >
+              <i class="fas fa-external-link-alt"></i>
+              Ver Projeto
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <a
+      href="https://api.whatsapp.com/send?phone=5547997537883&text=Olá! Gostaria de conversar sobre um projeto."
+      class="whatsapp-float"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer Centralizado -->
+    <footer class="modern-footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-contact">
+            <a href="mailto:leonardovalle18@gmail.com" class="contact-btn">
+              <i class="fas fa-envelope"></i> Enviar Mensagem
+            </a>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Leonardo do Valle. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

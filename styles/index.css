@@ -82,6 +82,11 @@ h1 {
   letter-spacing: 0.5px;
 }
 
+.user-img {
+  width: 200px;
+  height: 200px;
+}
+
 .main-content {
   display: flex;
   flex-wrap: wrap;
@@ -93,7 +98,7 @@ h1 {
 
 .profile-card {
   flex: 1;
-  min-width: 300px;
+  min-width: 200px;
   max-width: 400px;
   background: rgba(30, 30, 30, 0.7);
   backdrop-filter: blur(15px);
@@ -206,7 +211,7 @@ h1 {
 
 .language-selector {
   flex: 1;
-  min-width: 300px;
+  min-width: 200px;
   max-width: 500px;
   background: rgba(30, 30, 30, 0.7);
   backdrop-filter: blur(15px);

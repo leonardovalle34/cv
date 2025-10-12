@@ -1,4 +1,3 @@
-// Menu Mobile
 document.addEventListener("DOMContentLoaded", function () {
   const mobileMenuBtn = document.querySelector(".mobile-menu-btn");
   const navMenu = document.querySelector(".nav-menu");
@@ -6,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function () {
   mobileMenuBtn.addEventListener("click", function () {
     navMenu.classList.toggle("active");
 
-    // Altera o ícone
     const icon = mobileMenuBtn.querySelector("i");
     if (navMenu.classList.contains("active")) {
       icon.classList.remove("fa-bars");
@@ -17,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-  // Fecha menu ao clicar em um link
   const navLinks = document.querySelectorAll(".nav-link");
   navLinks.forEach((link) => {
     link.addEventListener("click", function () {
@@ -28,7 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Fecha menu ao redimensionar a tela
   window.addEventListener("resize", function () {
     if (window.innerWidth > 768) {
       navMenu.classList.remove("active");
